@@ -13,10 +13,9 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Facebook UI',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.blue,
-        scaffoldBackgroundColor: Palette.scaffold
-      ),
-      home: HomeScreen(),
+          primarySwatch: Colors.blue,
+          scaffoldBackgroundColor: Palette.scaffold),
+      home: NavScreen(),
     );
   }
 }
